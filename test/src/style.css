@@ -1,0 +1,16 @@
+.text-gradient {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .text-shadow { 
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+    .background {
+        background-image: url('./assest/background.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* أو الارتفاع المناسب */
+      }

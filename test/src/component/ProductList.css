@@ -1,0 +1,32 @@
+/* الخلفية الموحدة لجميع المنتجات */
+.product-card {
+    background-color: #f8f9fa; /* خلفية موحدة بلون فاتح */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* إضافة انتقال للتحولات */
+    border: none; /* إزالة الحدود الافتراضية */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف */
+  }
+  
+  /* تكبير العنصر عند مرور الماوس */
+  .product-card:hover {
+    transform: scale(1.05); /* تكبير حجم المنتج قليلاً عند التمرير */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* زيادة الظل */
+  }
+  
+  /* تكبير خط اسم المنتج */
+  .product-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* تمييز لون السعر */
+  .price span {
+    color: #ff6347; /* لون مميز للسعر */
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* مركز النص في البطاقة */
+  .card-body {
+    text-align: center;
+  }
+  
